@@ -392,7 +392,7 @@ const tarotCards = [
   },
 ].map((card) => ({
   ...card,
-  image: `src/img/${card.number}-${card.arcana.toLowerCase()}.jpg`,
+  image: `/img/${card.number}-${card.arcana.toLowerCase()}.jpg`,
 }))
 
 export default tarotCards
